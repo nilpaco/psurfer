@@ -1,0 +1,41 @@
+.top-story {
+  bottom: 1.1em;
+  left: 1.5em;
+  right: 1.5em;
+  color: #fff;
+  font-style: normal;
+  position: absolute;
+  z-index: 3;
+}
+
+.top-story-card {
+  height: 300px;
+  width: 66%;
+  background: url("https://i.ytimg.com/vi/tntOCGkgt98/maxresdefault.jpg") no-repeat center center fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+.top-story h2 {
+  font-weight: 700;
+  font-size: 2em;
+  line-height: 1.1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  line-height: 1;
+  margin-bottom: .25em; }
+
+.top-story h2 a {
+  text-decoration: none;
+  color: black;
+  background: #fff200;
+  line-height: 1.2em;
+}
+.top-story span a {
+  text-decoration: none;
+  color: black;
+  background: white;
+}
